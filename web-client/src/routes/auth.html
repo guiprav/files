@@ -1,0 +1,22 @@
+<template>
+  <require from="./auth.css"></require>
+  <div class="auth-page">
+    <div class="auth-page-form">
+      <input
+        class="auth-page-input"
+        type="text"
+        value.bind="account"
+        placeholder="Account"
+      >
+      <input
+        class="auth-page-input"
+        type="password"
+        value.bind="password"
+        placeholder="Password"
+      >
+      <button class="auth-page-sign-in-btn">
+        Sign in
+      </button>
+    </div>
+  </div>
+</template>
